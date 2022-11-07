@@ -38,31 +38,31 @@ public class GaleriaModel<GincanaModal> {
 		return idGaleria;
 	}
 
-	public void setIdCriterio(long idCriterio) {
-		this.idGaleria = idCriterio;
+	public void setIdGaleria(long idGaleria) {
+		this.idGaleria = idGaleria;
 	}
 
-	public String getNomeCriterio() {
+	public String getNomeGaleria() {
 		return nomeGaleria;
 	}
 
-	public void setNomeCriterio(String nomeGaleria) {
+	public void setNomeGaleria(String nomeGaleria) {
 		this.nomeGaleria = nomeGaleria;
 	}
 
-	public String getPontuacaoCriterio() {
+	public String getDescricaoGaleria() {
 		return descricaoGaleria;
 	}
 
-	public void setPontuacaoCriterio(String descricaoGaleria) {
+	public void setDescricaoGaleria(String descricaoGaleria) {
 		this.descricaoGaleria = descricaoGaleria;
 	}
 
-	public GincanaModal getProva() {
+	public GincanaModal getGincana() {
 		return gincana;
 	}
 
-	public void setImagem(GincanaModal gincana) {
+	public void setGincana(GincanaModal gincana) {
 		this.gincana = gincana;
 	}
 
