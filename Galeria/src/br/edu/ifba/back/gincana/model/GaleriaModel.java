@@ -1,5 +1,4 @@
 package br.edu.ifba.back.gincana.model;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -34,7 +33,7 @@ public class GaleriaModel<GincanaModal> {
 	private GincanaModal gincana;
 	
 	
-	public long getIdCriterio() {
+	public long getIdGaleria() {
 		return idGaleria;
 	}
 
