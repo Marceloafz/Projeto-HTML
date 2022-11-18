@@ -1,4 +1,4 @@
-package br.edu.ifba.gincana.model;
+package br.edu.ifba.tarefa.model;
 
 import java.sql.Date;
 
