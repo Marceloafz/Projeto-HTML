@@ -24,7 +24,7 @@ public class GaleriaController {
 	
 	@GetMapping("/")
 	public String index(Model model) {
-		System.out.println("tarefas_lista - init");
+		System.out.println("imagem_lista - init");
 		List<GaleriaModel> list = this.galeriaService.getGaleria();
 		model.addAttribute("galeria", list);
 		return "galeria/index";
