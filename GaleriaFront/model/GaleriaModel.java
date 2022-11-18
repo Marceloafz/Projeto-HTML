@@ -33,7 +33,7 @@ public class GaleriaModel {
 	public void setNome_Galeria(String nome_Galeria) {
 		this.nome_Galeria = nome_Galeria;
 	}
-	public long getDescricao_Gincana() {
+	public String  getDescricao_Gincana() {
 		return descricao_Gincana;
 	}
 	public void setDescriao_Gincana(long descricao_Gincana) {
