@@ -1,4 +1,4 @@
-package br.edu.ifba.gincana.controller;
+package br.edu.ifba.tarefa.controller;
 
 import java.util.List;
 
@@ -24,7 +24,7 @@ public class GaleriaController {
 	
 	@GetMapping("/")
 	public String index(Model model) {
-		System.out.println("imagem_lista - init");
+		System.out.println("tarefa_lista - init");
 		List<GaleriaModel> list = this.galeriaService.getGaleria();
 		model.addAttribute("galeria", list);
 		return "galeria/index";
