@@ -1,4 +1,4 @@
-package br.edu.ifba.gincana.service;
+package br.edu.ifba.tarefa.service;
 
 import java.util.ArrayList;
 import java.util.List;
